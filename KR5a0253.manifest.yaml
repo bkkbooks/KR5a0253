@@ -1,0 +1,76 @@
+canonical_identifier: bkk:krp/KR5a0253/v1
+canonical_location: https://kanripo.org/bkk/KR5a0253/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 谷神篇
+  identifiers:
+    alt_id:
+    - DZ0252
+  date: '2015-08-28 23:43:28.991819'
+  source:
+    repository: kanripo
+    path: KR5a0253
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0253_000.yaml, hash: 'sha256:9897d84a95d9464833e5df35bb4bfb845d432308009333f6c82ee9336da7ace7'}
+  - {seq: 1, filename: KR5a0253_001.yaml, hash: 'sha256:b6b5328e35d9ef8af020d5a6638365042115e10eb2308aff27318234c76033eb'}
+  - {seq: 2, filename: KR5a0253_002.yaml, hash: 'sha256:6ecc56c549129ba831a860ecc720b1e9bd1c51dad16d52e09793a8966648e66b'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0253_000.markers.yaml, hash: 'sha256:8f70200a5716dc92f84f270c0cfdbaa2f22d1d35ec82555b5e98911e6b9b03a5'}
+  - {seq: 1, role: markers, filename: assets/KR5a0253_001.markers.yaml, hash: 'sha256:4991f0ae0d313f5be92c7d1a6bd24a511cf627aa9e8ba9072ee65ee6d8ade7de'}
+  - {seq: 2, role: markers, filename: assets/KR5a0253_002.markers.yaml, hash: 'sha256:16c069d9030c1c86313572c8a3b1f054dde4ed9765251a92035d57d973e30344'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0253_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1895
+  label: juan 000
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR5a0253_HFL_001-001a
+    span:
+    - body
+    - 0
+    - 4178
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5a0253_HFL_002-001a
+    span:
+    - body
+    - 0
+    - 6445
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:cb52c3f801f4e987e4153a4391218b25927fd2837522646c1ffef042182d3ce8
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
